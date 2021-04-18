@@ -14,5 +14,5 @@ npm i mongoose<br>
 npm i passport-local<br>
 npm i nodemon --save-dev</p> <br>
 <h2>npm Database:</h2>
-<p>Database by Mongodb in<br> MyBlogWeb\controllers\adminController.js<br>MyBlogWeb\controllers\defaultController.js</p>
+<p>Database by Mongodb in<br>Admin db: MyBlogWeb\controllers\adminController.js<br>Login db:  MyBlogWeb\controllers\defaultController.js</p>
 <p>Mongodb download link https://www.mongodb.com/try/download/community</p>
