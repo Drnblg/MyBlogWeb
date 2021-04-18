@@ -1,0 +1,32 @@
+<div class="row">
+    <div class="container">
+        <div class="col-md-10">
+            <table class="table table-bordered text-center text-white">
+                <thead class="bg-dark">
+                <tr>
+                    <th>Id</th>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Email</th>
+                    <th>password</th>
+                </tr>
+                </thead>
+
+                <tbody class="text-dark">
+                {{#each user}}
+                    <tr>
+                        <td>{{id}}</td>
+                        <td>{{firstName}}</td>
+                        <td>{{lastName}}</td>
+                        <td>{{email}}</td>
+                        <td>{{password}}</td>
+                    </tr>
+
+                {{/each}}
+                </tbody>
+
+
+            </table>
+        </div>
+    </div>
+</div>
